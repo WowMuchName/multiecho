@@ -13,6 +13,9 @@
     "ws-echo",
     "websocket-echo"
   ],
+  "bin": {
+    "multiecho": "./bin/multiecho.js"
+  },
   "author": "Mark Albert",
   "license": "MIT",
   "devDependencies": {
