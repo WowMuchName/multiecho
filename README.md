@@ -10,11 +10,15 @@ When a websocket session is established, the server echoes back each send packet
 ## Installation
 
 ### Via Docker
+```
 docker run -d -p 3000:3000 wowmuchname/multiecho
+```
 
 ### Via NPM
+```
 npm i -g multiecho
 multiecho
+```
 
 ## Port-Configuration
 The listener port is determined as follows
